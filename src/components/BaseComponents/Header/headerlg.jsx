@@ -4,7 +4,7 @@ import logo from "../../../images/logo.png";
 
 const HeaderLogo = () => {
     return (
-        <Navbar.Brand href="#home" style={{display: 'flex' , alignItems: 'center'}}>
+        <Navbar.Brand href="/" style={{display: 'flex' , alignItems: 'center'}}>
             <img
                 alt=""
                 src={logo}

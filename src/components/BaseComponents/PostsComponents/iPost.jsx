@@ -5,7 +5,7 @@ import {Link, Outlet} from "react-router-dom";
 const IPost = () => {
     return (
         <>
-            <Link to='/read'>
+            <Link to='/read' className="link">
                 <Card>
                     <Card.Img variant="top" src={bread1}  style={{width: "100%", height: "50%"}}/>
                     <Card.Body>

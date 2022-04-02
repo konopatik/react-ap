@@ -5,7 +5,7 @@ import './App.css'
 import Footer from "./components/BaseComponents/Footer/footer";
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router-dom";
-import CardGroupe from "./components/BaseComponents/PostsComponents/cardGroupe";
+import FullPost from "./components/BaseComponents/PostsComponents/fullPost";
 
 function App() {
     return (
@@ -15,7 +15,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Main/>}/>
                     {/*    <Route path  element={<IPost />} />*/}
-                    <Route path="read/" element={<CardGroupe/>}/>
+                    <Route path="read/" element={<FullPost/>}/>
                 </Routes>
             </BrowserRouter>
             <Footer/>

@@ -13,3 +13,31 @@
 .myBtn {
     margin-left: 1%;
 }
+.fullpost{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img-fullpost{
+    width: 70%;
+    margin: auto;
+}
+.text-fullpost {
+    text-align: center;
+}
+.title-fullpost {
+    text-align: center;
+}
+.p-fullpost{
+    text-align: left;
+    margin: auto;
+    width: 70%;
+}
+.link{
+    text-decoration: none;
+    color: #4f5050;
+}
+.link:hover{
+    color: #1a1e21;
+}

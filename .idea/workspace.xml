@@ -1,30 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11b5b4e3-96e2-460b-b0ea-a9dba529cb5e" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/components/BaseComponents/PostsComponents/cardGroupe.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BaseComponents/main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/registration.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/modalStore.js" afterDir="false" />
+    <list default="true" id="11b5b4e3-96e2-460b-b0ea-a9dba529cb5e" name="Default Changelist" comment="upd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseComponents/carousel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/buttonCounter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseComponents/Counter/buttonCounter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseComponents/PostsComponents/iPost.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cardGroupe.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cardTwo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseComponents/PostsComponents/posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/counter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseComponents/Counter/counter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseComponents/Footer/footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footerLeft.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseComponents/Footer/footerNav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseComponents/Header/header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/headerNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseComponents/Header/headerNav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/headerlogo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseComponents/Header/headerlg.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseComponents/logo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menuFooter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseComponents/Footer/footerMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/oneCard.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BaseComponents/Header/headerlg.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseComponents/Header/headerlg.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BaseComponents/PostsComponents/cardGroupe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseComponents/PostsComponents/fullPost.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BaseComponents/PostsComponents/iPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseComponents/PostsComponents/iPost.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +110,7 @@
       <workItem from="1648836577107" duration="7028000" />
       <workItem from="1648843837383" duration="1990000" />
       <workItem from="1648889572297" duration="597000" />
-      <workItem from="1648910607481" duration="5315000" />
+      <workItem from="1648910607481" duration="10514000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1648836876009</created>
@@ -136,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648836876010</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="upd">
+      <created>1648916705009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648916705009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
