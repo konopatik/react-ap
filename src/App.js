@@ -1,26 +1,26 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from "./components/header";
-import Main from "./components/main";
+import Header from "./components/BaseComponents/Header/header";
+import Main from "./components/BaseComponents/main";
 import './App.css'
-import Footer from "./components/footer";
-import {  Routes, Route } from "react-router-dom";
-import OneCard from "./components/card";
-import CardGroupe from "./components/cardGroupe";
+import Footer from "./components/BaseComponents/Footer/footer";
+import {BrowserRouter} from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
+import CardGroupe from "./components/BaseComponents/PostsComponents/cardGroupe";
 
 function App() {
-  return (
+    return (
         <div className="App">
-          <Header/>
-          {/*<Main/>*/}
-            <Routes>
-                <Route path="/" element={<Main />}>
-                    {/*<Route path="one" element={<OneCard />} />*/}
-                    <Route path="read" element={<CardGroupe />} />
-                </Route>
-            </Routes>
-          <Footer />
+            <Header/>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Main/>}/>
+                    {/*    <Route path  element={<IPost />} />*/}
+                    <Route path="read/" element={<CardGroupe/>}/>
+                </Routes>
+            </BrowserRouter>
+            <Footer/>
         </div>
-  );
+    );
 }
 
 export default App;

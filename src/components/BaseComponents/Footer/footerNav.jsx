@@ -1,7 +1,7 @@
 import React from 'react';
 import {Navbar} from "react-bootstrap";
 
-const FooterLeft = () => {
+const FooterNav = () => {
     return (
         <Navbar.Collapse className="justify-content-end">
             <Navbar.Text style={{color: "white"}}>
@@ -11,4 +11,4 @@ const FooterLeft = () => {
     );
 };
 
-export default FooterLeft;
+export default FooterNav;

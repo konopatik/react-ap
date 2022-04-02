@@ -1,8 +1,9 @@
 import React from 'react';
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import {Container, Navbar} from "react-bootstrap";
-import HeaderLogo from "./headerlogo";
+import HeaderLogo from "./headerlg";
 import HeaderNav from "./headerNav";
+import Registration from "../../registration";
 const Header = () => {
     return (
         <>
@@ -12,6 +13,7 @@ const Header = () => {
                         <HeaderLogo/>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <HeaderNav/>
+                        <Registration/>
                     </Container>
                 </Navbar>
             </header>

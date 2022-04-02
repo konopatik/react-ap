@@ -1,6 +1,6 @@
 import React from 'react';
 import { observer } from "mobx-react-lite";
-import {counterStore} from "../store/counterStore";
+import {counterStore} from "../../../store/counterStore";
 import {Button, Badge} from "react-bootstrap";
 
 

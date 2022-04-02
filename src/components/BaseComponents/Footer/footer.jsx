@@ -1,14 +1,14 @@
 import React from 'react';
 import { Navbar} from "react-bootstrap";
-import Logo from "./logo";
-import MenuFooter from "./menuFooter";
-import FooterLeft from "./footerLeft";
+import Logo from "../logo";
+import FooterMenu from "./footerMenu";
+import FooterNav from "./footerNav";
 const Footer = () => {
     return (
         <Navbar bg="dark">
             <Logo />
-            <MenuFooter />
-            <FooterLeft/>
+            <FooterMenu />
+            <FooterNav/>
         </Navbar>
     );
 };

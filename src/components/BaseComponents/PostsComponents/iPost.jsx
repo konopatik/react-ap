@@ -1,8 +1,8 @@
 import React from 'react';
-import bread1 from "../images/1.jpeg";
+import bread1 from "../../../images/1.jpeg";
 import {Card} from "react-bootstrap";
 import {Link, Outlet} from "react-router-dom";
-const OneCard = () => {
+const IPost = () => {
     return (
         <>
             <Link to='/read'>
@@ -25,4 +25,4 @@ const OneCard = () => {
     );
 };
 
-export default OneCard;
+export default IPost;

@@ -1,13 +1,12 @@
 import React from 'react';
 import {Container} from "react-bootstrap";
-import Carousel from "./Carousel";
-import CardTwo from "./cardTwo";
+import Posts from "./PostsComponents/posts";
+
 
 const Main = () => {
     return (
         <Container style={{width: "100%"}}>
-            <Carousel />
-            <CardTwo/>
+            <Posts/>
         </Container>
     );
 };

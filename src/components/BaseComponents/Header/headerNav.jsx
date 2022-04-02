@@ -1,6 +1,6 @@
 import React from 'react';
 import {Navbar, Nav, Form, FormControl, Button} from "react-bootstrap";
-import ButtonCounter from "./buttonCounter";
+import ButtonCounter from "../Counter/buttonCounter";
 const HeaderNav = () => {
     return (
         <Navbar.Collapse id="navbarScroll">
@@ -24,6 +24,7 @@ const HeaderNav = () => {
                 <Button variant="secondary">Search</Button>
             </Form>
         </Navbar.Collapse>
+
     );
 };
 

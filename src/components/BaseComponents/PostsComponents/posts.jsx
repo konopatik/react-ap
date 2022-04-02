@@ -1,19 +1,16 @@
 import React from 'react';
 import { Row } from "react-bootstrap";
-import {Route, Routes} from "react-router-dom";
-import OneCard from "./card";
-import {withRouter} from "react-router";
-import Main from "./main";
+import IPost from "./iPost";
 
-const CardTwo = () => {
+const Posts = () => {
     return (
         <Row xs={1} md={2} className="g-4 margin">
             {Array.from({ length: 12 }).map((_, idx) => (
-                <OneCard/>
+                <IPost/>
             ))}
         </Row>
     );
 };
 
-export default CardTwo;
+export default Posts;
 

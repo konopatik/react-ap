@@ -1,7 +1,7 @@
 import React from 'react';
 import {Nav} from "react-bootstrap";
 
-const MenuFooter = () => {
+const FooterMenu = () => {
     return (
         <Nav className="justify-content-center" activeKey="/home">
             <Nav.Item>
@@ -22,4 +22,4 @@ const MenuFooter = () => {
     );
 };
 
-export default MenuFooter;
+export default FooterMenu;
